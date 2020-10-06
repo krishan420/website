@@ -1,11 +1,11 @@
 [![Build Status](https://travis-ci.com/nnev/website.svg?branch=master)](https://travis-ci.com/nnev/website)
 
-## Setup for testing the website locally
+## Setup up the website for testing locally 
 
   * install docker: Installation instructions for [debian/linux](https://docs.docker.com/engine/installation/linux/docker-ce/debian/), [macOS](https://docs.docker.com/docker-for-mac/install/) and [windows](https://docs.docker.com/docker-for-windows/install/) can be found on the docker website. For Arch Linux, use `pacman -S docker`.
   * start docker (usually `systemctl start docker.service` will suffice)
 
-### use the Makefile
+### Use the Makefile for the local website
 
   * make sure there are no running services on the port 8080, otherwise change the port in the `Makefile`
   * run `make` (with docker privileges, e.g. as root)
